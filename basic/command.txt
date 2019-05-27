@@ -1,0 +1,3 @@
+gcc -fno-stack-protector -z execstack basic.c -o basic.out
+
+gdb basic.out
